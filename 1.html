@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Spotify Clone</title>
+    <style>
+      body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            background-color: #111;
+            padding: 10px;
+        }
+
+        #playlist {
+            display: flex;
+            flex-direction: column;
+            max-width: 300px;
+            margin: 20px auto;
+            padding: 0;
+            list-style: none;
+        }
+
+        #playlist li {
+            padding: 10px;
+            cursor: pointer;
+            border-bottom: 1px solid #444;
+            transition: background-color 0.3s;
+        }
+
+        #playlist li:hover {
+            background-color: #333;
+        }
+
+        #player {
+            max-width: 300px;
+            margin: 20px auto;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        #audioPlayer {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Simple Spotify Clone</h1>
+    </header>
+
+    <ul id="playlist">
+        <li onclick="playTrack('songs/1.mp3')">Song 1</li>
+        <li onclick="playTrack('songs/2.mp3')">Song 2</li>
+        <li onclick="playTrack('songs/3.mp3')">Song 3</li>
+    </ul>
+
+    <div id="player">
+        <audio controls id="audioPlayer">
+            <source src="" type="audio/mpeg" id="audioSource">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <script>
+        function playTrack(track) {
+            var audioPlayer = document.getElementById('audioPlayer');
+            var audioSource = document.getElementById('audioSource');
+
+            // Set the source of the audio element
+            audioSource.src = track;
+
+            // Load and play the new track
+            audioPlayer.load();
+            audioPlayer.play();
+        }
+    </script>
+
+</body>
+</html>
