@@ -15,9 +15,16 @@ let p = false
 //() function
 //"" ' ' - strings
 let songs = [
-  { songName: "1", filePath: "songs/1.mp3", singer: "Arijit Singh", coverPath: "img/songicon.jpg" },
-  { songName: "2", filePath: "songs/2.mp3", singer: "Honey Singh", coverPath: "img/songicon.jpg" },
-  { songName: "3", filePath: "songs/3.mp3", singer: "Mika Singh", coverPath: "img/songicon.jpg" },
+  { songName: "1. Saware", filePath: "songs/1.mp3", singer: "Arijit Singh", coverPath: "img/songicon.jpg" },
+  { songName: "2. Aasan Nahin Yahan", filePath: "songs/2.mp3", singer: "Arijit Singh", coverPath: "img/songicon2.jpg" },
+  { songName: "3. Raabta", filePath: "songs/3.mp3", singer: "Pritam, Arijit Singh", coverPath: "img/songicon3.jpg" },
+  { songName: "4. Llahi", filePath: "songs/4.mp3", singer: "Pritam, Arijit Singh", coverPath: "img/songicon4.jpg" },
+  { songName: "5. Kabira", filePath: "songs/5.mp3", singer: "Pritam, Arijit Singh, Harshdeep Kaur", coverPath: "img/songicon5.jpg" },
+  { songName: "6. Deva Deva", filePath: "songs/6.mp3", singer: "Pritam, Arijit Singh, Jonita Gandhi, Amitabh Bhattacharya", coverPath: "img/songicon6.jpg" },
+  { songName: "7. Duaa", filePath: "songs/7.mp3", singer: "Nandini Srikar, Arijit Singh", coverPath: "img/songicon7.jpg" },
+  { songName: "8. Sooraj Dooba Hain", filePath: "songs/8.mp3", singer: "Arijit Singh, Aditi Singh Sharma", coverPath: "img/songicon8.jpg" },
+  { songName: "9. Ruaan", filePath: "songs/9.mp3", singer: "Pritam, Arijit Singh, Irshad Kamil", coverPath: "img/songicon9.jpg" },
+  { songName: "10. Rooh Jaga Doon", filePath: "songs/10.mp3", singer: "Arijit Singh, Shloke Lal", coverPath: "img/songicon10.jpg" },
 ]
 
 // Function to create a song item
