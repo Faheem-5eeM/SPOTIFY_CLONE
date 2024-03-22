@@ -22,7 +22,7 @@ A frontend clone of Spotify's web player interface, created using HTML, CSS, and
 
 ### Open in a Web Browser:
 
-1 . Open the index.html file directly in your preferred web browser.
+1 . Open the **index.html** file directly in your preferred web browser.
 
 ## Screenshots
 
