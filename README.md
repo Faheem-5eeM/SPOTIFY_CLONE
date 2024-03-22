@@ -40,10 +40,10 @@ A frontend clone of Spotify's web player interface, created using HTML, CSS, and
 
 ## Lessons Learned
 
-* **The Power of CSS Styling:** I discovered how intricate CSS can be for replicating complex user interfaces like Spotify's.  I learned better techniques for layout, responsiveness, and creating visual effects.
-* **JavaScript for Interactivity (if applicable):**  Implementing features like play/pause buttons highlighted the importance of understanding event listeners and DOM manipulation within JavaScript. 
-* **Challenges of Music Functionality:** I originally intended to add dynamic song switching, but this underscored the complexity of integrating with music APIs and the need for backend development.
-* **Value of Iteration:** This project reinforced the importance of starting with a basic structure, then gradually adding and refining features. 
+- > **The Power of CSS Styling:** I discovered how intricate CSS can be for replicating complex user interfaces like Spotify's.  I learned better techniques for layout, responsiveness, and creating visual effects.
+- > **JavaScript for Interactivity (if applicable):**  Implementing features like play/pause buttons highlighted the importance of understanding event listeners and DOM manipulation within JavaScript. 
+- > **Challenges of Music Functionality:** I originally intended to add dynamic song switching, but this underscored the complexity of integrating with music APIs and the need for backend development.
+- > **Value of Iteration:** This project reinforced the importance of starting with a basic structure, then gradually adding and refining features. 
 
 
 
